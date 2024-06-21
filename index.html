@@ -65,15 +65,15 @@
             position: absolute;
             top: 10px;
             right: 10px;
-            background-color: rgba(0, 0, 0, 0.4);
+            background-color: rgba(201, 179, 39, 0.8);
+            border: 5px solid black;
             padding: 10px;
             border-radius: 30px;
             display: none;
             flex-direction: column;
             color: whitesmoke;
-            border: 5px solid #5d4d54;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 15px;
+            font-size: 400;
+            box-sizing: border-box;
         }
 
         .gradient-selector-container label,
@@ -97,6 +97,20 @@
         transition: box-shadow 0.3s, background-color 0.3s;
         }
 
+
+        .gradient-selector-container select{
+           border-radius: 5px;
+           font-weight: 200; 
+           background-color: #fce7b0;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gradient-selector-container select:hover{
+            transition: 0.5s ease-in-out;
+            background-color: #FFEA7E;
+            transform: scale(1.1);
+        }
+      
         .gradient-selector-container select {
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -150,6 +164,33 @@
         .gradient-button:focus {
             outline: none;
         }
+      
+        .apply_btn{
+            background-color: #ff9b54;
+            border-radius: 5px;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .apply_btn:hover{
+            background-color: #FFEA7E;
+            transform: scale(1.075);
+        }
+
+        #color1 ,#color2{
+            width: auto;
+            text-align: center;
+            border-radius: 5px;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        #color1:hover{
+            transform: scale(1.075);
+        }
+
+        #color2:hover{
+            transform: scale(1.075);
+        }
+
         
         #v{
             border-radius: 0px 0px 25px 25px;
@@ -177,7 +218,6 @@
             display: none;
             max-width: 300px;
             z-index: 10;
-        }
 
     </style>
 </head>
