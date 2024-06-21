@@ -3915,6 +3915,10 @@ function applyGradient() {
 	toggleGradientSelector(); // Close the selector container after applying the gradient
 }
 
+function exitGradient(){
+	toggleGradientSelector()
+}
+
 // Function to display instructions 
 
 document.querySelector('.instructions').addEventListener('click', () => {
