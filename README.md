@@ -30,14 +30,14 @@
 
   # Game Description 🎮
 
-  To every game enthusiast, here in PACKABUNCHAS you are spacey, a group of space rangers specialised in packing and rescuing cretures around the galaxy! This is a stimulating brain game Built using core tech-stacks HTML and JavaScript that requires strategy and spatial intelligence. Players must strategically drag different shaped pieces onto the spaceship grid and aim to save the creatures! 🚀
+  To every game enthusiast, here in PACKABUNCHAS you are spacey, a group of space rangers specialised in packing and rescuing creatures around the galaxy! This is a stimulating brain game Built using core tech-stacks HTML and JavaScript that requires strategy and spatial intelligence. Players must strategically drag different shaped pieces onto the spaceship grid and aim to save the creatures! 🚀
 
   ### Features 📃
 
   - <b>Variety of Modes:</b> Standard play mode with time constraints or a relaxing Zen mode.
 - <b>Invertible block pieces:</b> Rotate or flip your pieces for enhanced control over piece placement.
 - <b>Drag Mode:</b> Provides additional strategic opportunities by allowing movement of already placed blocks.
-- <b>Interactive:</b> This game is completely user interavtive and friendly with amusing backgrounds, music, and features.
+- <b>Interactive:</b> This game is completely user interactive and friendly with amusing backgrounds, music, and features.
 <br><br>
 
 <hr>
